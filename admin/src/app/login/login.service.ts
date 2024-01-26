@@ -21,6 +21,6 @@ export class LoginService {
       }),
     };
 
-    return this.http.post('http://localhost:80/login.php', data.toString(), httpOptions);
+    return this.http.post('http://localhost:80/logina.php', data.toString(), httpOptions);
   }
 }
